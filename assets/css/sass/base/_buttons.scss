@@ -1,0 +1,23 @@
+a {
+    text-decoration:none;    
+}
+
+.green-cta {
+    background:$primary-color;
+    color:#fff;
+    border:none;
+    
+    &:hover {
+        background:$primary-color-hover;
+    }
+}
+
+.orange-cta {
+    background:$secondary-color;
+    color:#fff;
+    border:none;
+    
+    &:hover {
+        background:$secondary-color-hover;
+    }
+}

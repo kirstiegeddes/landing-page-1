@@ -1,0 +1,135 @@
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,900,300,700);
+
+h1, 
+h2,
+h3,
+h4,
+h5,
+p,
+input,
+input[type="text"],
+input[type="submit"],
+input[type=button],
+select,
+button,
+textarea {
+    font-family: 'Lato', sans-serif;
+}
+
+
+html,
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+input,
+input[type="text"],
+select,
+textarea,
+a{
+    color: $tertiary-color;
+}
+
+::-webkit-input-placeholder{
+    color: $tertiary-color;
+    font-family: 'Lato' , sans-serif;
+}
+::-moz-placeholder{
+    color: $tertiary-color;
+    font-family: 'Lato' , sans-serif;
+    opacity: 1;
+}
+:-ms-input-placeholder{
+    color: $tertiary-color;
+    font-family: 'Lato' , sans-serif;
+}
+:-moz-placeholder{
+    color: $tertiary-color;
+    font-family: 'Lato' , sans-serif;
+    opacity: 1;
+}
+
+
+/*Font sizes*/
+
+html,
+body{
+    font-size: 20px;
+}
+
+p{
+    font-size:12px;
+    margin-bottom: 12px;
+    line-height: 12px;
+}
+
+h1{
+    font-size:20px;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-size:18px;
+}
+
+h3{
+    font-size:16px;
+}
+
+h4{
+    font-size:14px;
+}
+
+input,
+button,
+input[type="text"],
+input[type=button],
+select,
+textarea{
+    font-size: 10px;
+}
+
+input,
+input[type="text"]{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+textarea{
+    padding:10px;
+}
+
+strong{
+    font-weight:bold;
+}
+
+@media screen and (max-width:1024px){
+    input,
+    button,
+    input[type="text"],
+    input[type=button],
+    textarea,
+    select,
+    .enquire-cta,
+    .finance-cta,
+    .sliders-cta{
+        font-size: 12px;
+    }
+    
+    ::-webkit-input-placeholder{
+        font-size:12px;
+    }
+    ::-moz-placeholder{
+        font-size:12px;
+    }
+    :-ms-input-placeholder{
+        font-size:12px;
+    }
+    :-moz-placeholder{
+        font-size:12px;
+    }
+}

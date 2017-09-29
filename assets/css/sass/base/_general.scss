@@ -1,0 +1,30 @@
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+img { 
+    -ms-interpolation-mode: bicubic;
+}
+
+.inner-wrapper{
+    margin: 0 auto;
+    display:block;
+    max-width:1200px;
+}
+
+.styled-select{
+    background: url("../images/dropdown-arrow.jpg") no-repeat scroll right center #fff;
+    cursor: pointer;
+    overflow: hidden;
+    height:40px;
+    
+    select{
+       background: none repeat scroll 0 0 transparent;
+       cursor: pointer;
+       width: 115%;
+       border:none;
+       height:100%;
+       padding-left: 10px;
+   }
+}
