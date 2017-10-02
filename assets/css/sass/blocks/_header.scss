@@ -1,5 +1,71 @@
 
 
 header {
-    border-bottom:4px solid $tertiary-color;
+    border-bottom:1px solid $tertiary-color;
+    width:100%;
+    position:fixed;
+    height:170px;
+    background:#fff;
+    z-index:100;
+    text-align:center;
+}
+
+.header-inner-wrapper {
+    margin:0 auto;
+    display:inline-block;
+    position:relative;
+    max-width:1200px;
+    width:100%;
+}
+
+.icon.mfl-logo {
+    float: right;
+    position: relative;
+    text-indent: -20000px;
+    width: 115px;
+    height: 70px;
+    background-position: top right;
+    display: none;
+}
+
+.logo.stoneacre-logo {
+    width: 220px;
+    height: 70px;
+    text-indent: -2000px;
+    position: relative;
+    margin:0 auto;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.phone-number {
+    float:right;
+    padding-top:12px;
+    padding-right:30px;
+    span {
+        display:none;
+    }
+    i {
+        width:50px;
+        font-size:50px;
+        color:$primary-color;
+    }
+}
+
+.main-nav{
+    display:none;
+}
+
+.MobileIcons {
+    border-top:2px solid $tertiary-color;
+}
+
+.jsHamburger {
+    float:left;
+    padding-left:30px;
+    padding-top:12px;
+    i {
+        font-size:50px;
+        color:$tertiary-color;
+    }
 }

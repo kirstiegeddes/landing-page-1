@@ -305,5 +305,91 @@ a {
 
 /* line 3, sass/blocks/_header.scss */
 header {
-  border-bottom: 4px solid #4d4d4d;
+  border-bottom: 1px solid #4d4d4d;
+  width: 100%;
+  position: fixed;
+  height: 170px;
+  background: #fff;
+  z-index: 100;
+  text-align: center;
 }
+
+/* line 13, sass/blocks/_header.scss */
+.header-inner-wrapper {
+  margin: 0 auto;
+  display: inline-block;
+  position: relative;
+  max-width: 1200px;
+  width: 100%;
+}
+
+/* line 21, sass/blocks/_header.scss */
+.icon.mfl-logo {
+  float: right;
+  position: relative;
+  text-indent: -20000px;
+  width: 115px;
+  height: 70px;
+  background-position: top right;
+  display: none;
+}
+
+/* line 31, sass/blocks/_header.scss */
+.logo.stoneacre-logo {
+  width: 220px;
+  height: 70px;
+  text-indent: -2000px;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* line 41, sass/blocks/_header.scss */
+.phone-number {
+  float: right;
+  padding-top: 12px;
+  padding-right: 30px;
+}
+/* line 45, sass/blocks/_header.scss */
+.phone-number span {
+  display: none;
+}
+/* line 48, sass/blocks/_header.scss */
+.phone-number i {
+  width: 50px;
+  font-size: 50px;
+  color: #5cb85c;
+}
+
+/* line 55, sass/blocks/_header.scss */
+.main-nav {
+  display: none;
+}
+
+/* line 59, sass/blocks/_header.scss */
+.MobileIcons {
+  border-top: 2px solid #4d4d4d;
+}
+
+/* line 63, sass/blocks/_header.scss */
+.jsHamburger {
+  float: left;
+  padding-left: 30px;
+  padding-top: 12px;
+}
+/* line 67, sass/blocks/_header.scss */
+.jsHamburger i {
+  font-size: 50px;
+  color: #4d4d4d;
+}
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 29, 2017, 11:40:28 AM
+    Author     : kirstiegeddes
+*/
